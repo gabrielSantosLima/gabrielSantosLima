@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi, I'm Gabriel Lima 👋
 
 - :mortar_board: I’m currently studying at the Federal Institute of Amazonas.
 - 🌱 I’m currently learning Kotlin language and mobile development.  
