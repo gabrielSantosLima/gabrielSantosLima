@@ -1,7 +1,7 @@
 ### Hi, I'm Gabriel Lima 👋
 
 - :mortar_board: I’m currently studying at the Federal Institute of Amazonas.
-- 🌱 I’m currently learning Kotlin language and mobile development.  
+- 🌱 I'm currently learning Java and Kotlin languages, and the mobile and web development. 
 
 <!--
 **gabrielSantosLima/gabrielSantosLima** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
