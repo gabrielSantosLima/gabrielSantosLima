@@ -12,7 +12,7 @@
   <img src="https://devicons.github.io/devicon/devicon.git/icons/java/java-original-wordmark.svg" alt="java" width="20" height="20"/>
   </p>
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=gabrielSantosLima&show_icons=true" alt="gabrielSantosLima"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrielSantosLima&layout=compact" alt="Linguagens" />
+<img src="https://github-readme-stats.vercel.app/api?username=gabrielSantosLima&show_icons=true&theme=dark" alt="gabrielSantosLima"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrielSantosLima&layout=compact&theme=dark" alt="Linguagens" />
 </p>
 
