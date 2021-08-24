@@ -7,5 +7,4 @@
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=gabrielSantosLima&show_icons=true&theme=dark" alt="gabrielSantosLima"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrielSantosLima&layout=compact&theme=dark" alt="Linguagens" />
 </p>
