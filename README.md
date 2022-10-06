@@ -10,10 +10,6 @@
 
 # About
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=gabrielSantosLima&show_icons=true&theme=dark" alt="gabrielSantosLima"/>
-</p>
-
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
