@@ -1,7 +1,7 @@
 # Hi, I'm Gabriel Lima :wave:
 
 - :computer: **Computer Technician** by **IFAM Instituto Federal do Amazonas**.
-- 🌱 I'm currently working with **mobile** and **web** development using technologies like **React.js**, **Node.js** and **Xamarin**. I'm currently studying languages like **C**, **Java**, **Kotlin**, **Javascript**, **Typescript**, **Python**, **C#** and **Julia**. 
+- 🌱 I'm currently working with **mobile** and **web** development using technologies like **React.js**, **Node.js** and **Xamarin**. I'm currently studying languages like **C**, **Java**, **Kotlin**, **Javascript**, **Typescript**, **Python**, **C#**, **Julia**, **Shell Script**. 
 - 📫 How to reach me lima.gabrieldsantos@gmail.com.
 - 🖱️ Connect with me at www.linkedin.com/in/gabriel-dos-santos-lima
 - 🎓 Currently studying **Information System** at the **UEA - Universidade do Estado Do Amazonas**.
@@ -20,3 +20,4 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![Julia](https://img.shields.io/badge/-Julia-9558B2?style=for-the-badge&logo=julia&logoColor=white)
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
