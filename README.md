@@ -5,7 +5,7 @@
 - 📫 How to reach me lima.gabrieldsantos@gmail.com.
 - 🖱️ Connect with me at www.linkedin.com/in/gabriel-dos-santos-lima
 - 🎓 Currently studying **Information System** at the **UEA - Universidade do Estado Do Amazonas**.
-- :office_worker: I'm currently working on **Academy Callidus** at **UEA - Universidade do Estado Do Amazonas**.
+- :office_worker: I'm currently working on **iNova** at **IFAM - Instituto Federal do Amazonas**.
 - Frontend Developer of http://parintinsdigital.com.br/
 
 # About
