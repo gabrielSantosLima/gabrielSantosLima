@@ -1,21 +1,228 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Fira Code", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
+@import "./colors.css";
+@import "./reset.css";
+@import "./fonts.css";
+
+/* General */
+html,
+body,
+#app {
+  background-color: var(--bg);
+  width: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
 }
 
-:root {
-  --primary: #ff9900;
-  --background: #303030;
+* ::-webkit-scrollbar {
+  background-color: transparent;
+  width: 12px;
 }
 
-body {
-  height: 100vh;
+* ::-webkit-scrollbar-thumb {
+  background-color: var(--bg-2);
+  border-radius: 8px;
+}
+
+/* Nav Bar */
+#app > .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: var(--bg-4);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+}
+
+#app > .nav img {
+  width: auto;
+  height: 40px;
+}
+
+#app > .nav a:hover {
+  color: var(--bg);
+  background-color: var(--c-1);
+}
+
+#app > .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 70px;
+  padding: 40px;
+}
+
+#app > .content h1,
+#app > .content h2 {
+  margin: 0 auto;
+}
+
+/* About Me */
+.whoiam > .content {
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.whoiam > .content > img {
+  width: 400px;
+  height: auto;
+}
+
+.whoiam > .content .info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: start;
+}
+
+.whoiam > .content .info .social-medias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 20px;
+  padding: 0;
+}
+
+.whoiam > .content .info .social-medias .social-media > a,
+.whoiam > .content .info .social-medias .social-media > label {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--background);
-  color: var(--primary);
+  gap: 10px;
+  text-decoration: none;
+}
+
+.whoiam > .content .info .social-medias .social-media > a:hover {
+  text-decoration: underline;
+}
+
+/* XP */
+.xp .storyline {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.xp .storyline .story {
+  --story-dot-color: var(--bg-2);
+  --story-dot-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.xp .storyline .story.wip {
+  --story-dot-color: var(--primary);
+}
+
+.xp .storyline .story::after {
+  position: absolute;
+  content: " ";
+  width: var(--story-dot-size);
+  height: var(--story-dot-size);
+  left: -60px;
+  top: 0px;
+  background-color: var(--story-dot-color);
+  border-radius: 50%;
+}
+
+.xp .storyline .story::before {
+  position: absolute;
+  content: " ";
+  width: 6px;
+  height: 100%;
+  left: calc(var(--story-dot-size) / 2 - 63px);
+  top: 0px;
+  background-color: var(--story-dot-color);
+}
+
+.xp .storyline .story h3 {
+  font-weight: bold;
+}
+
+.xp .storyline .compiling {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.xp .storyline .compiling .gear1 {
+  margin-left: 10px;
+  width: 16px;
+  animation: gear-rolling 4s linear infinite;
+}
+.xp .storyline .compiling .gear2 {
+  width: 32px;
+  animation: gear-rolling 4s linear infinite reverse;
+}
+
+@keyframes gear-rolling {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Skills */
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills .techs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills .techs .tech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.skills .techs .tech.star {
+  background-color: #444444;
+}
+
+/* Projects */
+
+/* Footer */
+.footer {
+  background-color: var(--bg-4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+.footer .social-medias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer .social-medias .icon {
+  width: 20px;
+  height: auto;
 }
