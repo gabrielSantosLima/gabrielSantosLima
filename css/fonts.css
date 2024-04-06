@@ -25,18 +25,22 @@
   font-size: 1em;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .mini-text {
   font-size: 0.8em;
 }
 
-.code-keyword {
+.kw {
   color: var(--primary);
 }
 
-.code-keyword-2 {
+.kw-2 {
   color: var(--keyword-2);
 }
 
-.code-commentary {
+.c {
   color: var(--commentary);
 }
